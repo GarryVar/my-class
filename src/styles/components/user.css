@@ -1,0 +1,32 @@
+.user__wrap {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.user__wrap button {
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    box-shadow: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.user__more-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__avatar {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+}
+
+.user__name {
+    font-size: 18px;
+    font-weight: 500;
+}

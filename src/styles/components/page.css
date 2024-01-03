@@ -1,0 +1,22 @@
+.page__body {
+  display: grid;
+  grid-template-areas:
+    "aside header"
+    "aside main";
+  grid-template-columns: 310px 1fr;
+  grid-template-rows: min-content 1fr;
+}
+
+.page__header {
+  padding: 40px 25px 21px 25px;
+  grid-area: header
+}
+
+.page__aside {
+  grid-area: aside;
+  border-right: 2px solid rgba(26, 30, 33, .1);
+}
+
+.page__main {
+  grid-area: main;
+}

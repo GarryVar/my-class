@@ -1,0 +1,30 @@
+.nav__menu {
+    margin: 0;
+    padding: 0;
+    padding-top: 55px;
+
+    list-style: none;
+}
+
+.nav__link {
+    display: flex;
+    padding: 15px;
+    border-radius: 4px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-light-gray);
+    text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+.nav__icon {
+    margin-right: 10px;
+}

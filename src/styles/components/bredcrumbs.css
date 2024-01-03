@@ -1,0 +1,32 @@
+.bredcrumbs__list {
+    display: flex;
+    column-gap: 20px;
+    padding: 0;
+    left: 0;
+
+    list-style-type: none;
+}
+
+.bredcrumbs__item {
+    position: relative;
+}
+
+.bredcrumbs__item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -14px;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-dark-blue);
+}
+
+.bredcrumbs__item:last-child::after {
+    content: none;
+}
+
+.bredcrumbs__link {
+    text-decoration: none;
+}
