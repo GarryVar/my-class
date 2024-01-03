@@ -13,6 +13,10 @@
 }
 
 .page__aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   grid-area: aside;
   border-right: 2px solid rgba(26, 30, 33, .1);
 }
