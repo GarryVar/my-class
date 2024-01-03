@@ -1,3 +1,9 @@
+.tags__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 .tags__list {
     display: flex;
     flex-wrap: wrap;
