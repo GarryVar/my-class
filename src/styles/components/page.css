@@ -22,5 +22,6 @@
 }
 
 .page__main {
+  padding: 0 40px 0 40px;
   grid-area: main;
 }

@@ -28,5 +28,17 @@
 }
 
 .bredcrumbs__link {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bredcrumbs__link[href] {
+    font-size: 12px;
+    color: var(--color-black);
+    opacity: 1;
     text-decoration: none;
+}
+
+.bredcrumbs__link {
+    opacity: .5;
 }
