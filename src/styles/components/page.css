@@ -9,7 +9,14 @@
 }
 
 .page__header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+
   padding: 20px 10px;
+  padding-bottom: 0;
   grid-area: header
 }
 
