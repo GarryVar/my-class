@@ -1,0 +1,14 @@
+.controls__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.controls__title {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.controls__card-views {
+    margin-left: auto;
+    list-style: none;
+}

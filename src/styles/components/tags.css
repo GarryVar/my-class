@@ -1,3 +1,7 @@
+.tags {
+    margin-bottom: 30px;
+}
+
 .tags__title {
     font-size: 18px;
     font-style: normal;
@@ -26,6 +30,5 @@
 
 .tags__item a:hover,
 .tags__item a:focus {
-    color: var(--color-white);
-    background-color: var(--color-dark-blue);
+    opacity: .5;
 }
