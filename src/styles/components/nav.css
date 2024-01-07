@@ -1,7 +1,6 @@
 .nav__menu {
-    margin: 0;
+    margin: 80px 25px 0 25px;
     padding: 0;
-    padding-top: 55px;
 
     list-style: none;
 }
@@ -19,10 +18,20 @@
     text-decoration: none;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.nav__link--active {
     background-color: var(--color-dark-blue);
     color: var(--color-white);
+}
+
+.nav__link:active {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    opacity: .5;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    opacity: .5;
 }
 
 .nav__icon {

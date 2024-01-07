@@ -5,6 +5,7 @@
     "aside main";
   grid-template-columns: 310px 1fr;
   grid-template-rows: min-content 1fr;
+  min-height: 100vh;
 }
 
 .page__header {
