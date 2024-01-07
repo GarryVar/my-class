@@ -186,6 +186,7 @@
 
   </aside>
   <main class="page__main">
+    <!-- Bredcrumbs -->
     <div class="bredcrumbs">
       <ol class="bredcrumbs__list">
         <li class="bredcrumbs__item">
@@ -200,6 +201,7 @@
       </ol>
     </div>
     <h1 class="page__main-title">Веб-разработка</h1>
+    <!-- Tags -->
     <div class="tags">
       <h2 class="tags__title">Популярные темы</h2>
       <ul class="tags__list">
@@ -246,6 +248,68 @@
           <a href="">Bootstrap</a>
         </li>
       </ul>
+    </div>
+    <div class="controls">
+      <div class="controls__wrap">
+        <p class="controls__title">Сортировать по:</p>
+        <!-- Sort -->
+        <div class="sort">
+          <ul class="sort__list">
+            <li class="sort__item">
+              <a class="sort__link" href="#">популярности</a>
+            </li>
+            <li class="sort__item">
+              <a class="sort__link" href="#">рейтингу</a>
+            </li>
+            <li class="sort__item">
+              <a class="sort__link" href="#">цене</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card views -->
+        <div class="controls__card-views card-views">
+          <ul class="card-views__list">
+            <li class="card-views__item">
+              <button type="button">
+                <span class="visually-hidden">Плитка</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
+                  <rect fill="#6C5DD3" x="16" y="8" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" x="8" y="8" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" y="8" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" x="16" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" x="8" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" width=" 5" height="5" rx="1" />
+                </svg>
+              </button>
+            </li>
+            <li class="card-views__item">
+              <button type="button">
+                <span class="visually-hidden">Список</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="13" viewBox="0 0 30 13" fill="none">
+                  <rect fill="#6C5DD3" x="8" y="8" width="22" height="5" rx="1" />
+                  <rect fill="#6C5DD3" y="8" width="5" height="5" rx="1" />
+                  <rect fill="#6C5DD3" x="8" width="22" height="5" rx="1" />
+                  <rect fill="#6C5DD3" width="5" height="5" rx="1" />
+                </svg>
+              </button>
+            </li>
+            <li class="card-views__item">
+              <button type="button">
+                <span class="visually-hidden">Компактный список</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="13" viewBox="0 0 32 13" fill="none">
+                  <rect fill="#6C5DD3" x="6" y="10" width="26" height="3" rx="1" />
+                  <rect fill="#6C5DD3" y="10" width="3" height="3" rx="1" />
+                  <rect fill="#6C5DD3" x="6" y="5" width="26" height="3" rx="1" />
+                  <rect fill="#6C5DD3" y="5" width="3" height="3" rx="1" />
+                  <rect fill="#6C5DD3" x="6" width="26" height="3" rx="1" />
+                  <rect fill="#6C5DD3" width="3" height="3" rx="1" />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </main>
 </body>

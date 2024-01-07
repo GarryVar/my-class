@@ -25,7 +25,6 @@
 .page__main {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
 
   padding: 0 40px 0 40px;
   grid-area: main;

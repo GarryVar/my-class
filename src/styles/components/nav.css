@@ -10,10 +10,10 @@
     padding: 15px;
     border-radius: 4px;
 
-    font-size: 18px;
-    font-style: normal;
+    padding: 17px 15px 19px 15px;
     font-weight: 500;
-    line-height: normal;
+    font-size: 18px;
+    line-height: 22px;
     color: var(--color-light-gray);
     text-decoration: none;
 }
