@@ -9,7 +9,7 @@
 }
 
 .page__header {
-  padding: 40px 25px 21px 25px;
+  padding: 20px 10px;
   grid-area: header
 }
 
@@ -25,8 +25,9 @@
 .page__main {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
-  padding: 0 40px 0 40px;
+  padding: 0 40px 40px 40px;
   grid-area: main;
 }
 
@@ -38,4 +39,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.page__controls {
+  margin-bottom: 50px;
 }
